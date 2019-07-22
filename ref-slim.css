@@ -40,4 +40,13 @@
     padding: 10px 70px;
     min-width: 64px;
     height: 36px;
+    margin-top: 10px;
+}
+
+.email-field {
+    min-height: 36px;
+    min-width: 215px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
 }
