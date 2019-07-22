@@ -1,8 +1,62 @@
-<form name="submit-to-google-sheet">
-  <input name="email" type="email" placeholder="Email" required>
-  <button type="submit">Send</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<title>Collect better references</title>
+<meta charset="UTF-8">
 
+<link rel="stylesheet" type="text/css" href="ref-slim.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+<style>
+body,h1,h2,h2,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+</style>
+<body>
+<!-- Navbar -->
+    <section id="ref-nav">
+    <img src="https://res.cloudinary.com/refworks/image/upload/v1554495720/ref_logo.png" alt="Ref logo" style="width:75px;height:75px;padding: 5px;">
+  </section>
+<hr style="
+    margin-bottom: 0px;
+">
+<!-- Header -->
+	<section id="ref-header">
+ <h1>A better, smarter way to collect and organise references from candidates</h1>
+ <p>Connect faster and quickly get references for candidates</p> 
+ <form>
+      <input style="min-height:36px;min-width: 240px;margin-right: 48px;" name="email" placeholder="Email" type="text" required>
+</form>
+  	<br>
+    <button type="submit" class="ref-button">Sign up for free</button>
+    <p><small>Save yourself time – References you can trust</small></p>
+   <p><small> – Simple to use</small></p>
+ 	</section>
+<!-- image -->
+<section class="ref-hero-image">
+    <img src="https://res.cloudinary.com/refworks/image/upload/v1554496200/ref-stock.png">
+    </section>
+<!-- Second Grid -->
+<section class="second-grid">
+      <h2>Save yourself time</h2>
+      <p>Let us do the hard work for you! Instead of chasing up candidates and references we've automated that bit so you can relax</p>
+      <br>
+      <h2>References you can trust</h2>
+      <p>We verfit each reference, so you can be sue you're getting information from the right person</p>
+      <br>
+      <h2>Simple to use</h2>
+      <p>We keep everything easy and straightforward, so you can think about other things</p>
+      <br>
+    </section>
+<!-- Footer -->
+<section class="footer">
+   <h2><strong> Ref </strong> </h2>
+   <p> Sign up for free </p>
+   <p> Find out more</p>
+   <p> About</p>
+   <p> Pricing</p>
+   <p> Blog</p>
+   <p> Ts and Cs</p>
+</section>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxbIdCjyOzSHJ6t_eiH40gWvuJjBcLQFtbqhEs4rJ_99qbkgF3y/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -14,3 +68,5 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+</body>
+</html>
